@@ -76,33 +76,26 @@
 
 <script>
 	
-	var Marzipano = window.Marzipano;
-	var bowser = window.bowser;
-	var screenfull = window.screenfull;
-	var data = window.APP_DATA;
-
+	<!--
 	var wrapper = document.createElement('div');
-
 	const paths = document.querySelectorAll('path');
 
-	function findSceneById(id) {
+	 function findSceneById(id) {
 		for (var i = 0; i < scenes.length; i++) {
 		  if (scenes[i].data.id === id) {
 			return scenes[i];
 		  }
 		}
 		return null;
-	  }
-
+	} 
+	-->
+	const targets = document.querySelectorAll('path');
+	targets.forEach(el => {
+	el.addEventListener('click', (e) => {
+		alert(e.target.id)
+		})
+	}); 
 	
-
-	// const targets = document.querySelectorAll('image');
-
-	// targets.forEach(el => {
-	//	el.addEventListener('click', (e) => {
-	//		alert(e.target.id)
-	//	})
-	//})
 </script>
 
 

@@ -100,39 +100,14 @@
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
 
+    // Create embedded hotspot of floorplan
     var container = scene.hotspotContainer();
 
-    // Create hotspot with different sources.
-    container.createHotspot(document.getElementById('iframespot'), { yaw: 0.0335, pitch: -0.102 },
+    container.createHotspot(document.getElementById('iframespot'), { yaw: 1.850, pitch: -0.150 });
+    //container.createHotspot(document.getElementById('iframespot'), { yaw: 0.0335, pitch: -0.102 });
     //container.createHotspot(document.getElementById('iframespot'), { yaw: 0, pitch: -80.6  },
-    { perspective: { extraRotations: 'rotateZ(0deg) rotateY(0deg)', radius: 1500 }});
-    container.createHotspot(document.getElementById('iframeselect'), { yaw: -0.35, pitch: -0.239 });
 
-    // HTML sources.
-    var wrapper = document.createElement('div');
-    wrapper.classList.add('iframe');
-    //var src = document.getElementById('mapDenah');
-
-    var hotspotHtml = {
-      youtube: '<iframe id="youtube" width="1280" height="1280" src="./map.html" frameborder="0" allowfullscreen></iframe>',
-      };
-      // Switch sources when clicked.
-    function switchHotspot(id) { 
-      var wrapper = document.getElementById('iframespot');
-      wrapper.innerHTML = hotspotHtml[id];
-    }
-
-    var switchElements = document.querySelectorAll('[data-source]');
-    for (var i = 0; i < switchElements.length; i++) {
-      var element = switchElements[i];
-      addClickEvent(element);
-    }
-
-    function addClickEvent(element) {
-      element.addEventListener('click', function() {
-        switchHotspot(element.getAttribute('data-source'));
-      });
-    }
+    document.getElementById('iframespot').innerHTML = '<iframe id="youtube" width="640" height="640" src="./map.html" frameborder="0" allowfullscreen></iframe>';
 
     // switching map in floormap
     // var switchMap = document.querySelectorAll('path');
