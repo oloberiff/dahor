@@ -100,14 +100,26 @@
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
 
-    // Create embedded hotspot of floorplan
-    var container = scene.hotspotContainer();
+    if (data.id == '0-gerbang'){
+      // Create embedded hotspot of floorplan
+      var container = scene.hotspotContainer();
 
-    container.createHotspot(document.getElementById('iframespot'), { yaw: 1.850, pitch: -0.150 });
-    //container.createHotspot(document.getElementById('iframespot'), { yaw: 0.0335, pitch: -0.102 });
-    //container.createHotspot(document.getElementById('iframespot'), { yaw: 0, pitch: -80.6  },
+      container.createHotspot(document.getElementById('iframespot'), { yaw: 1.850, pitch: -0.150 });
+      //container.createHotspot(document.getElementById('iframespot'), { yaw: 0.0335, pitch: -0.102 });
+      //container.createHotspot(document.getElementById('iframespot'), { yaw: 0, pitch: -80.6  },
 
-    document.getElementById('iframespot').innerHTML = '<iframe id="youtube" width="640" height="640" src="./map.html" frameborder="0" allowfullscreen></iframe>';
+      document.getElementById('iframespot').innerHTML = '<iframe id="youtube" width="640" height="640" src="./map.html" frameborder="0" allowfullscreen></iframe>';
+    
+      const targets = document.querySelectorAll('path');
+      targets.forEach(el => {
+      el.addEventListener('click', (e) => {
+        
+          var pathId = e.targets.id;
+          document.switchScene(scenes[pathId]);
+        })
+      }); 
+    } 
+    
 
     // switching map in floormap
     // var switchMap = document.querySelectorAll('path');

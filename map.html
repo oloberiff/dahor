@@ -87,16 +87,19 @@
 		  }
 		}
 		return null;
-	} 
-	-->
+	}  
+	
+	var data = window.APP_DATA;
 	const targets = document.querySelectorAll('path');
 	targets.forEach(el => {
 	el.addEventListener('click', (e) => {
-		alert(e.target.id)
+			alert(e.target.id)
+			var pathId = e.target.id;
+			data.switchScene(pathId);
 		})
-	}); 
+	}); -->
 	
 </script>
-
+<script src="index.js" type="text/javascript"></script>
 
 </svg>
