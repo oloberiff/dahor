@@ -29,7 +29,17 @@ var APP_DATA = {
         "fov": 1.2922572019461387
       },
       "linkHotspots": [],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "1-h1",
@@ -79,7 +89,17 @@ var APP_DATA = {
           "target": "0-gerbang"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "2-h2",
@@ -123,7 +143,17 @@ var APP_DATA = {
           "target": "3-h3"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "3-h3",
@@ -167,7 +197,17 @@ var APP_DATA = {
           "target": "12-ll1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "4-h4",
@@ -217,7 +257,17 @@ var APP_DATA = {
           "target": "6-h6"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "5-h5",
@@ -267,7 +317,17 @@ var APP_DATA = {
           "target": "6-h6"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "6-h6",
@@ -317,7 +377,17 @@ var APP_DATA = {
           "target": "3-h3"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "7-h7",
@@ -361,7 +431,17 @@ var APP_DATA = {
           "target": "8-h8"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "8-h8",
@@ -405,7 +485,17 @@ var APP_DATA = {
           "target": "7-h7"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "9-h9",
@@ -455,7 +545,17 @@ var APP_DATA = {
           "target": "8-h8"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "10-h10",
@@ -499,7 +599,17 @@ var APP_DATA = {
           "target": "11-h11"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "11-h11",
@@ -543,7 +653,17 @@ var APP_DATA = {
           "target": "12-ll1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "12-ll1",
@@ -599,7 +719,17 @@ var APP_DATA = {
           "target": "3-h3"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "13-ll2",
@@ -643,7 +773,17 @@ var APP_DATA = {
           "target": "14-ll3"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "14-ll3",
@@ -687,7 +827,17 @@ var APP_DATA = {
           "target": "3-h3"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "15-t1",
@@ -737,7 +887,17 @@ var APP_DATA = {
           "target": "5-h5"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "16-t2",
@@ -775,7 +935,17 @@ var APP_DATA = {
           "target": "15-t1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "17-l1",
@@ -825,7 +995,17 @@ var APP_DATA = {
           "target": "20-r21"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "18-rt1",
@@ -875,7 +1055,17 @@ var APP_DATA = {
           "target": "23-r1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "19-rt2",
@@ -931,7 +1121,17 @@ var APP_DATA = {
           "target": "22-r23"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "20-r21",
@@ -993,7 +1193,17 @@ var APP_DATA = {
           "target": "23-r1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "21-r22",
@@ -1043,7 +1253,17 @@ var APP_DATA = {
           "target": "20-r21"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "22-r23",
@@ -1087,7 +1307,17 @@ var APP_DATA = {
           "target": "21-r22"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "23-r1",
@@ -1137,7 +1367,17 @@ var APP_DATA = {
           "target": "18-rt1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "24-r3",
@@ -1187,7 +1427,17 @@ var APP_DATA = {
           "target": "26-tb1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "25-r4",
@@ -1225,7 +1475,17 @@ var APP_DATA = {
           "target": "17-l1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "26-tb1",
@@ -1275,7 +1535,17 @@ var APP_DATA = {
           "target": "24-r3"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     },
     {
       "id": "27-tb2",
@@ -1319,7 +1589,17 @@ var APP_DATA = {
           "target": "26-tb1"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [],
+      "mapHotspots": [
+        {
+          "yaw": 1.850,
+          "pitch": -0.150,
+	        "src": "./map.html",
+	        "frameborder": 0,
+	        "width": 640,
+	        "height": 640
+        },
+      ]
     }
   ],
   "name": "Rumah Dahor",

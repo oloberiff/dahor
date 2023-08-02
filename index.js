@@ -100,39 +100,19 @@
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
 
-    if (data.id == '0-gerbang'){
-      // Create embedded hotspot of floorplan
-      var container = scene.hotspotContainer();
-
-      container.createHotspot(document.getElementById('iframespot'), { yaw: 1.850, pitch: -0.150 });
-      //container.createHotspot(document.getElementById('iframespot'), { yaw: 0.0335, pitch: -0.102 });
-      //container.createHotspot(document.getElementById('iframespot'), { yaw: 0, pitch: -80.6  },
-
-      document.getElementById('iframespot').innerHTML = '<iframe id="youtube" width="640" height="640" src="./map.html" frameborder="0" allowfullscreen></iframe>';
-    
-      const targets = document.querySelectorAll('path');
-      targets.forEach(el => {
-      el.addEventListener('click', (e) => {
-        
-          var pathId = e.targets.id;
-          document.switchScene(scenes[pathId]);
-        })
-      }); 
-    } 
-    
-
-    // switching map in floormap
-    // var switchMap = document.querySelectorAll('path');
-    // for (var i = 0; i < switchMap.length; i++) {
-    //   var floorMap = switchMap[i];
-    //   addClickEvent(floorMap);
-    // }
-
-    // function addClickEvent(floorMap) {
-    //   floorMap.addEventListener('click', function() {
-    //     switchHotspot(floorMap.getAttribute('path'));
-    //   });
-    // }
+    data.mapHotspots.forEach(function(hotspot) {
+      var element = createMapHotspotElement(hotspot);
+      scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
+    });
+  
+    function createMapHotspotElement(hotspot) {
+      var wrapper = document.createElement('iframe');
+      wrapper.setAttribute("src", hotspot.src);
+      wrapper.setAttribute("width", hotspot.width);
+      wrapper.setAttribute("height", hotspot.height);
+      wrapper.setAttribute("frameborder", hotspot.frameborder);
+      return wrapper;
+    }
 
     return {
       data: data,
