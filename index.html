@@ -134,6 +134,8 @@
   <h1 class="sceneName"></h1>
 </div>
 
+<audio id="audio" src="intro-final.wav"></audio>
+
 <a href="javascript:void(0)" id="autorotateToggle">
   <img class="icon off" src="img/play.png">
   <img class="icon on" src="img/pause.png">
@@ -148,6 +150,8 @@
   <img class="icon off" src="img/expand.png">
   <img class="icon on" src="img/collapse.png">
 </a>
+
+
 
 <a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
   <img class="icon" src="img/up.png">
@@ -167,19 +171,9 @@
 <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
   <img class="icon" src="img/minus.png">
 </a>
-
-
-<div id="iframespot">
-  <div class="message">Select something to play!</div>
-</div>
-
-
-<script>
-  function play(){
-    var audio = new Audio('intro-2.wav');
-    audio.play();
-  }
-</script>
+<a href="javascript:void(0)" id="audioControl" class="viewControlButton viewControlButton-7" style="margin-left: 155px;">
+  <img class="icon" src="img/audio.png">
+</a>
 
 <script src="vendor/screenfull.min.js" ></script>
 <script src="vendor/bowser.min.js" ></script>

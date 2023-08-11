@@ -102,7 +102,10 @@
 
     data.mapHotspots.forEach(function(hotspot) {
       var element = createMapHotspotElement(hotspot);
-      scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
+      scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: Math.PI/2 }, {perspective: {
+        extraRotations: 'rotateZ(0deg) rotateY(0deg)',
+        radius: 700,
+      },});
     });
   
     function createMapHotspotElement(hotspot) {
@@ -133,6 +136,8 @@
 
   // Set handler for autorotate toggle.
   autorotateToggleElement.addEventListener('click', toggleAutorotate);
+
+  
 
   // Set up fullscreen mode, if supported.
   if (screenfull.enabled && data.settings.fullscreenButton) {
@@ -178,6 +183,10 @@
   var viewRightElement = document.querySelector('#viewRight');
   var viewInElement = document.querySelector('#viewIn');
   var viewOutElement = document.querySelector('#viewOut');
+  var audioControl = document.querySelector('#audioControl');
+  var myAudio = document.querySelector('#audio');
+
+  audioControl.addEventListener('click', toggleAudio);
 
   // Dynamic parameters for controls.
   var velocity = 0.7;
@@ -192,6 +201,7 @@
   controls.registerMethod('inElement',    new Marzipano.ElementPressControlMethod(viewInElement,  'zoom', -velocity, friction), true);
   controls.registerMethod('outElement',   new Marzipano.ElementPressControlMethod(viewOutElement, 'zoom',  velocity, friction), true);
 
+  
   function sanitize(s) {
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;');
   }
@@ -219,7 +229,7 @@
       }
     }
   }
-
+  
   function showSceneList() {
     sceneListElement.classList.add('enabled');
     sceneListToggleElement.classList.add('enabled');
@@ -255,6 +265,16 @@
     } else {
       autorotateToggleElement.classList.add('enabled');
       startAutorotate();
+    }
+  }
+
+  function toggleAudio() {
+    if (audioControl.classList.contains('enabled')) {
+      myAudio.pause();
+      audioControl.classList.remove('enabled');
+    } else {
+      myAudio.play();
+      audioControl.classList.add('enabled');
     }
   }
 
