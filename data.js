@@ -28,7 +28,14 @@ var APP_DATA = {
         "pitch": -0.017112279334343228,
         "fov": 1.2922572019461387
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -3.035634902007363,
+          "pitch": 0.31627755878429653,
+          "rotation": 0,
+          "target": "1-h1"
+        }
+      ],
       "infoHotspots": [],
       "mapHotspots": [
         {
