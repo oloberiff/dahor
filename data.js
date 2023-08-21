@@ -50,7 +50,7 @@ var APP_DATA = {
     },
     {
       "id": "1-h1",
-      "name": "H1",
+      "name": "Halaman Depan Gerbang",
       "levels": [
         {
           "tileSize": 256,
@@ -110,7 +110,7 @@ var APP_DATA = {
     },
     {
       "id": "2-h2",
-      "name": "H2",
+      "name": "Halaman Kanan Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -164,7 +164,7 @@ var APP_DATA = {
     },
     {
       "id": "3-h3",
-      "name": "H3",
+      "name": "Halaman Kanan Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -218,7 +218,7 @@ var APP_DATA = {
     },
     {
       "id": "4-h4",
-      "name": "H4",
+      "name": "Halaman Depan Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -278,7 +278,7 @@ var APP_DATA = {
     },
     {
       "id": "5-h5",
-      "name": "H5",
+      "name": "Halaman Depan Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -338,7 +338,7 @@ var APP_DATA = {
     },
     {
       "id": "6-h6",
-      "name": "H6",
+      "name": "Halaman Depan Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -398,7 +398,7 @@ var APP_DATA = {
     },
     {
       "id": "7-h7",
-      "name": "H7",
+      "name": "Halaman Depan Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -452,7 +452,7 @@ var APP_DATA = {
     },
     {
       "id": "8-h8",
-      "name": "H8",
+      "name": "Halaman Kiri Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -506,7 +506,7 @@ var APP_DATA = {
     },
     {
       "id": "9-h9",
-      "name": "H9",
+      "name": "Halaman Kiri Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -566,7 +566,7 @@ var APP_DATA = {
     },
     {
       "id": "10-h10",
-      "name": "H10",
+      "name": "Halaman Belakang Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -620,7 +620,7 @@ var APP_DATA = {
     },
     {
       "id": "11-h11",
-      "name": "H11",
+      "name": "Halaman Belakang Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -674,7 +674,7 @@ var APP_DATA = {
     },
     {
       "id": "12-ll1",
-      "name": "LL1",
+      "name": "Lorong Luar Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -740,7 +740,7 @@ var APP_DATA = {
     },
     {
       "id": "13-ll2",
-      "name": "LL2",
+      "name": "Lorong Luar Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -794,7 +794,7 @@ var APP_DATA = {
     },
     {
       "id": "14-ll3",
-      "name": "LL3",
+      "name": "Lorong Luar Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -848,7 +848,7 @@ var APP_DATA = {
     },
     {
       "id": "15-t1",
-      "name": "T1",
+      "name": "Teras",
       "levels": [
         {
           "tileSize": 256,
@@ -908,7 +908,7 @@ var APP_DATA = {
     },
     {
       "id": "16-t2",
-      "name": "T2",
+      "name": "Teras",
       "levels": [
         {
           "tileSize": 256,
@@ -956,7 +956,7 @@ var APP_DATA = {
     },
     {
       "id": "17-l1",
-      "name": "L1",
+      "name": "Lorong Rumah",
       "levels": [
         {
           "tileSize": 256,
@@ -1016,7 +1016,7 @@ var APP_DATA = {
     },
     {
       "id": "18-rt1",
-      "name": "RT1",
+      "name": "Rung Tamu",
       "levels": [
         {
           "tileSize": 256,
@@ -1076,7 +1076,7 @@ var APP_DATA = {
     },
     {
       "id": "19-rt2",
-      "name": "RT2",
+      "name": "Ruang Tamu",
       "levels": [
         {
           "tileSize": 256,
@@ -1142,7 +1142,7 @@ var APP_DATA = {
     },
     {
       "id": "20-r21",
-      "name": "R2.1",
+      "name": "Ruang Tengah",
       "levels": [
         {
           "tileSize": 256,
@@ -1214,7 +1214,7 @@ var APP_DATA = {
     },
     {
       "id": "21-r22",
-      "name": "R2.2",
+      "name": "Ruang Tengah",
       "levels": [
         {
           "tileSize": 256,
@@ -1274,7 +1274,7 @@ var APP_DATA = {
     },
     {
       "id": "22-r23",
-      "name": "R2.3",
+      "name": "Ruang Tengah",
       "levels": [
         {
           "tileSize": 256,
@@ -1328,7 +1328,7 @@ var APP_DATA = {
     },
     {
       "id": "23-r1",
-      "name": "R1",
+      "name": "Kamar 1",
       "levels": [
         {
           "tileSize": 256,
@@ -1388,7 +1388,7 @@ var APP_DATA = {
     },
     {
       "id": "24-r3",
-      "name": "R3",
+      "name": "Ruang Belakang",
       "levels": [
         {
           "tileSize": 256,
@@ -1448,7 +1448,7 @@ var APP_DATA = {
     },
     {
       "id": "25-r4",
-      "name": "R4",
+      "name": "Kamar 2",
       "levels": [
         {
           "tileSize": 256,
@@ -1496,7 +1496,7 @@ var APP_DATA = {
     },
     {
       "id": "26-tb1",
-      "name": "TB1",
+      "name": "Teras Belakang",
       "levels": [
         {
           "tileSize": 256,
@@ -1556,7 +1556,7 @@ var APP_DATA = {
     },
     {
       "id": "27-tb2",
-      "name": "TB2",
+      "name": "Teras Belakang",
       "levels": [
         {
           "tileSize": 256,
