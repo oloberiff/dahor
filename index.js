@@ -185,10 +185,8 @@
   var viewOutElement = document.querySelector('#viewOut');
   var audioControl = document.querySelector('#audioControl');
   var myAudio = document.querySelector('#audio');
-  var infoButton = document.querySelector('#informationButton');
 
   audioControl.addEventListener('click', toggleAudio);
-  infoButton.addEventListener('click', toggleInfo);
   
   // Dynamic parameters for controls.
   var velocity = 0.7;
@@ -278,10 +276,6 @@
       myAudio.play();
       audioControl.classList.add('enabled');
     }
-  }
-
-  function toggleInfo() {
-
   }
 
   function createLinkHotspotElement(hotspot) {
