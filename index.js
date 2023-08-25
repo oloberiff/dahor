@@ -185,9 +185,21 @@
   var viewOutElement = document.querySelector('#viewOut');
   var audioControl = document.querySelector('#audioControl');
   var myAudio = document.querySelector('#audio');
+  var modal = document.getElementById("myModal");
+  var img = document.getElementById("helpButton");
+  var span = document.getElementsByClassName("close")[0];
 
   audioControl.addEventListener('click', toggleAudio);
-  
+
+  img.onclick = function(){
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
   // Dynamic parameters for controls.
   var velocity = 0.7;
   var friction = 3;
