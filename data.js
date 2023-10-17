@@ -1016,7 +1016,7 @@ var APP_DATA = {
     },
     {
       "id": "18-rt1",
-      "name": "Rung Tamu",
+      "name": "Ruang Tamu",
       "levels": [
         {
           "tileSize": 256,
@@ -1126,6 +1126,12 @@ var APP_DATA = {
           "pitch": 0.4209581487808354,
           "rotation": 0.7853981633974483,
           "target": "22-r23"
+        },
+        {
+          "yaw": 2.1214713493632837,
+          "pitch": 0.5326793367596547,
+          "rotation": 0,
+          "target": "18-rt1"
         }
       ],
       "infoHotspots": [],
@@ -1365,7 +1371,7 @@ var APP_DATA = {
           "yaw": 0.1795368936892583,
           "pitch": 0.2000764989606605,
           "rotation": 6.283185307179586,
-          "target": "21-r22"
+          "target": "20-r21"
         },
         {
           "yaw": -1.0189829052593176,
