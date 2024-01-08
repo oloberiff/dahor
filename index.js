@@ -186,12 +186,11 @@
   var audioControl = document.querySelector('#audioControl');
   var myAudio = document.querySelector('#audio');
   var modal = document.getElementById("myModal");
-  var img = document.getElementById("helpButton");
+  var imgHelp = document.getElementById("helpButton");
   var span = document.getElementsByClassName("close")[0];
+  audioControl.addEventListener('click', audioToggle);
 
-  audioControl.addEventListener('click', toggleAudio);
-
-  img.onclick = function(){
+  imgHelp.onclick = function(){
     modal.style.display = "block";
   }
 
@@ -280,10 +279,11 @@
     }
   }
 
-  function toggleAudio() {
+  function audioToggle() {
     if (audioControl.classList.contains('enabled')) {
       myAudio.pause();
       audioControl.classList.remove('enabled');
+
     } else {
       myAudio.play();
       audioControl.classList.add('enabled');
